@@ -19,4 +19,11 @@ public class User {
     @Column(name = "surname")
     private String surname;
 
+    public User(String name, String surname) {
+        this.name = name;
+        this.surname = surname;
+    }
+
+    public User() {
+    }
 }
